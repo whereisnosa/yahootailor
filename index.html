@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f2ed">
+  <meta name="description" content="Yahoo Tailor — quality apparel, custom printing and made-to-order pieces. Tailored for the streets.">
+  <title>YAHOO TAILOR® — Tailored for the streets</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">CUSTOM GARMENTS & OTHER SERVICES <span>—</span> MADE TO FIT THE HUSTLE</div>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Yahoo Tailor home">YAHOO TAILOR<sup>®</sup></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="shop.html">Shop</a><a href="#custom">Custom Orders</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" id="search-toggle" aria-label="Search products" title="Search"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.7"/><path d="m16 16 5 5"/></svg></button>
+      <button class="icon-button cart-trigger" id="cart-open" aria-label="Open cart" title="Cart"><svg viewBox="0 0 24 24"><path d="M3 4h2l2.2 11.2a2 2 0 0 0 2 1.6h8.9a2 2 0 0 0 1.9-1.5L22 8H6"/><circle cx="10" cy="21" r="1"/><circle cx="18" cy="21" r="1"/></svg><span class="cart-count" id="cart-count">0</span></button>
+      <button class="icon-button menu-toggle" id="menu-toggle" aria-label="Toggle navigation"><svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </header>
+  <div class="search-bar" id="search-bar"><label for="search-input">SEARCH THE STORE</label><input id="search-input" type="search" placeholder="Try “tee” or “cap”"><button id="search-close" class="text-button">CLOSE ×</button></div>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation"><a href="shop.html">Shop</a><a href="#custom">Custom Orders</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image" role="img" aria-label="Streetwear model wearing a black oversized shirt"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <p class="eyebrow light">YAHOO TAILOR® <span> / EST. 2026</span></p>
+        <h1>Tailored for<br>the streets<span>.</span></h1>
+        <p class="hero-description">Quality apparel, custom printing and made-to-order pieces for individuals, businesses and communities.</p>
+        <a class="button button-light" href="shop.html">Shop the drop <span>↗</span></a>
+      </div>
+      <div class="hero-side-note">CUSTOM GARMENTS<br>& OTHER SERVICES</div>
+      <div class="hero-bottom"><span>DROP 001 — EVERYDAY UNIFORM</span><span>LAGOS, NG</span></div>
+    </section>
+
+    <section class="shop-section section-wrap" id="shop">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE CURRENT LINEUP</p><h2>Featured products<span>.</span></h2></div>
+        <p class="section-note">Everyday pieces.<br>Made to move with you.</p>
+      </div>
+      <div class="product-toolbar"><span id="product-result-count">04 PRODUCTS</span><span>DROP 001 / 2026</span></div>
+      <div class="product-grid" id="product-grid">
+        <article class="product-card" data-id="classic-tee" data-name="Classic Logo Tee" data-price="15000" data-category="tees">
+          <div class="product-image image-tee"><span class="product-tag">BESTSELLER</span><button class="quick-add" data-add="classic-tee" aria-label="Add Classic Logo Tee to cart">+</button></div>
+          <div class="product-info"><div><h3>Classic Logo Tee</h3><p>Oversized T-Shirt · Black</p></div><strong>₦15,000</strong></div>
+          <button class="add-button" data-add="classic-tee">Add to cart <span>＋</span></button>
+        </article>
+        <article class="product-card" data-id="tailor-cap" data-name="Tailor Cap" data-price="7500" data-category="accessories">
+          <div class="product-image image-cap"><span class="product-tag">DAILY ESSENTIAL</span><button class="quick-add" data-add="tailor-cap" aria-label="Add Tailor Cap to cart">+</button></div>
+          <div class="product-info"><div><h3>Tailor Cap</h3><p>Adjustable Cap · Forest</p></div><strong>₦7,500</strong></div>
+          <button class="add-button" data-add="tailor-cap">Add to cart <span>＋</span></button>
+        </article>
+        <article class="product-card" data-id="good-things-tee" data-name="Good Things Tee" data-price="15000" data-category="tees">
+          <div class="product-image image-good-tee"><span class="product-tag">GRAPHIC SERIES</span><button class="quick-add" data-add="good-things-tee" aria-label="Add Good Things Tee to cart">+</button></div>
+          <div class="product-info"><div><h3>Good Things Tee</h3><p>Graphic T-Shirt · Bone</p></div><strong>₦15,000</strong></div>
+          <button class="add-button" data-add="good-things-tee">Add to cart <span>＋</span></button>
+        </article>
+        <article class="product-card" data-id="utility-cargo" data-name="Utility Cargo Pants" data-price="28000" data-category="bottoms">
+          <div class="product-image image-cargo"><span class="product-tag">UTILITY SERIES</span><button class="quick-add" data-add="utility-cargo" aria-label="Add Utility Cargo Pants to cart">+</button></div>
+          <div class="product-info"><div><h3>Utility Cargo Pants</h3><p>Relaxed Fit · Black</p></div><strong>₦28,000</strong></div>
+          <button class="add-button" data-add="utility-cargo">Add to cart <span>＋</span></button>
+        </article>
+      </div>
+      <p class="no-results" id="no-results" hidden>No products found. Try another search.</p>
+      <div class="shop-footnote"><span>01—04 / DROP 001</span><span>MORE PIECES COMING SOON</span></div>
+    </section>
+
+    <section class="benefits" id="about">
+      <div class="benefit"><div class="benefit-icon"><svg viewBox="0 0 48 48"><path d="m9 17 9-5 6 6 6-6 9 5-4 10-5-3v14H18V24l-5 3z"/></svg></div><h3>Quality materials</h3><p>Durable fabrics, clean finishes,<br>made to last.</p></div>
+      <div class="benefit"><div class="benefit-icon"><svg viewBox="0 0 48 48"><path d="m8 34 3-9L31 5l11 11-20 20-9 3zM27 9l11 11M11 25l11 11M8 40l9-2"/></svg></div><h3>Custom printing</h3><p>Bring your ideas to life with<br>prints made for your project.</p></div>
+      <div class="benefit"><div class="benefit-icon"><svg viewBox="0 0 48 48"><path d="M4 12h26v24H4zM30 21h8l7 8v7H30z"/><circle cx="13" cy="38" r="4"/><circle cx="37" cy="38" r="4"/></svg></div><h3>Clear turnaround</h3><p>Reliable delivery timelines<br>for orders big or small.</p></div>
+      <div class="benefit"><div class="benefit-icon"><svg viewBox="0 0 48 48"><path d="m5 25 8-8 10 2 5 5-5 5-7-3M25 22l8-8 10 10-14 14-7-7M13 17l5-5 8 2 5 4M5 25l8 9 6-2"/></svg></div><h3>Business & bulk</h3><p>Team wear, events, schools<br>and organisations.</p></div>
+    </section>
+
+    <section class="custom-section" id="custom">
+      <div class="custom-photo"></div><div class="custom-overlay"></div>
+      <div class="custom-copy"><p class="eyebrow light">NEED SOMETHING CUSTOM?</p><h2>Your vision.<br>Our threads<span>.</span></h2><p>Custom garments and bulk printing for your event, business, team or personal project.</p><button class="button button-light" id="quote-open">Request a quote <span>↗</span></button></div>
+      <div class="custom-stamp">CUT WITH INTENTION<br><span>YAHOO TAILOR®</span><br>MADE IN LAGOS</div>
+    </section>
+
+    <section class="contact-strip" id="contact"><p>HAVE A PROJECT IN MIND?</p><a href="#custom" id="contact-quote">Let's make it happen <span>↗</span></a><span class="contact-small">CUSTOM ORDERS · COLLABS · BULK ENQUIRIES</span></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top"><a class="wordmark footer-wordmark" href="#home">YAHOO TAILOR<sup>®</sup></a><p>Tailored for the streets.<br>Made to fit the hustle.</p><div class="footer-links"><a href="shop.html">Shop</a><a href="#custom">Custom orders</a><a href="#about">About</a><a href="#contact">Contact</a></div><div class="social-links"><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="TikTok">TK</a><a href="#" aria-label="X">X</a></div></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> YAHOO TAILOR. ALL RIGHTS RESERVED.</span><span>DESIGNED FOR EVERYDAY LIFE.</span><a href="#home">BACK TO TOP ↑</a></div>
+  </footer>
+
+  <div class="cart-backdrop" id="cart-backdrop"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="drawer-heading"><div><p class="eyebrow">YOUR SELECTION</p><h2>Your cart <span id="drawer-count">(0)</span></h2></div><button class="close-button" id="cart-close" aria-label="Close cart">×</button></div>
+    <div class="cart-items" id="cart-items"><div class="empty-cart"><span>YOUR CART IS EMPTY.</span><p>Find something that fits.</p><button class="button button-dark" id="continue-shopping">Explore the drop ↗</button></div></div>
+    <div class="cart-summary" id="cart-summary" hidden><div class="subtotal"><span>Subtotal</span><strong id="cart-subtotal">₦0</strong></div><p>Delivery is calculated when your order is confirmed.</p><button class="button button-dark checkout-button" id="checkout-button">Continue to order ↗</button></div>
+  </aside>
+
+  <div class="modal-backdrop" id="quote-modal" role="dialog" aria-modal="true" aria-labelledby="quote-title" aria-hidden="true">
+    <div class="modal">
+      <div class="modal-heading"><div><p class="eyebrow">LET'S GET TO WORK</p><h2 id="quote-title">Request a quote<span>.</span></h2></div><button class="close-button" id="quote-close" aria-label="Close form">×</button></div>
+      <p class="modal-intro">Tell us what you have in mind. We'll prepare an enquiry message you can send to your preferred contact.</p>
+      <form id="quote-form">
+        <label for="customer-name">Your name</label><input id="customer-name" name="name" required placeholder="Name or business">
+        <label for="customer-contact">Email or phone</label><input id="customer-contact" name="contact" required placeholder="How can we reach you?">
+        <div class="form-row"><div><label for="order-type">Order type</label><select id="order-type" name="type"><option>Custom T-shirts</option><option>Bulk / event order</option><option>Business uniforms</option><option>Custom garment</option><option>Collaboration</option></select></div><div><label for="order-quantity">Estimated quantity</label><select id="order-quantity" name="quantity"><option>1–5 pieces</option><option>6–20 pieces</option><option>21–50 pieces</option><option>50+ pieces</option><option>Not sure yet</option></select></div></div>
+        <label for="order-details">What do you need?</label><textarea id="order-details" name="details" rows="4" placeholder="Design, sizes, deadline, budget (optional)"></textarea>
+        <button class="button button-dark form-submit" type="submit">Prepare enquiry ↗</button>
+      </form>
+      <p class="form-note">Demo form: it prepares a message, but does not submit to a server.</p>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
